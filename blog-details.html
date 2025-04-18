@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+   <title>Project</title>
+   <style type="text/tailwindcss">
+      @layer components {
+     .fc {
+      @apply flex justify-center items-center
+     }
+     .fcol {
+      @apply flex flex-col
+     }
+     .custom-tr {
+      @apply transition-all duration-200 ease-in-out
+     }
+    }
+    @theme {   
+      --color-primary: #CDA274;
+      --color-second: #4d5053;
+      --color-third: #fff;
+      --color-fourth: #000;
+      --font-dm: "DM Serif Display";
+      --font-j: "Jost";
+    }
+  </style>
+</head>
+
+<body>
+   <header class="mx-auto relative w-[420px] sm:w-[630px] md:w-[752px] lg:w-250 xl:w-300">
+      <nav class="w-100% flex justify-between items-center mt-1 sm:mt-3 lg:mt-11">
+         <img src="./assets/svg/interno-logo.svg" alt="interno-logo">
+         <img
+            class="inline sm:inline md:inline lg:hidden xl:hidden 2xl:hidden cursor-pointer hover:scale-110 active:scale-100"
+            src="./assets/svg/menu.svg" alt="">
+         <ul class="hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex gap-8">
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="./Homepage.html">Home</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Pages</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Services</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="./Project.html">Project</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">Blog</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Contact</a>
+            </li>
+            <li class="cursor-pointer"><img src="./assets/svg/search-icon.svg" alt="search"></li>
+         </ul>
+      </nav>
+      <div
+         class="fc md:pt-[350px] md:mt-10 md:bg-[url(./assets/png/blog.png)] bg-center rounded-lg relative lg:rounded-none lg:w-[1022px] lg:left-[-10px] xl:w-[1440px] xl:left-[-120px] 2xl:w-[1520px] 2xl:left-[-160.5px]">
+   </header>
+   <main class="fcol lg:flex-row gap-13 mt-50 mx-auto w-[420px] sm:w-[630px] md:w-[752px] lg:w-250 xl:w-300">
+      <div class="max-w-200">
+         <h2 class="font-dm text-[50px] text-fourth">Let’s Get Solution for Building
+            Construction Work</h2>
+         <img class="rounded-xl md:rounded-[46px] mt-5" src="./assets/png/kitchen.png" alt="kitchen">
+         <div>
+            <p class="flex justify-between mt-12 mb-12 text-second"><span>26 December,2022</span><span>Interior / Design
+                  / Home / Decore</span></p>
+         </div>
+         <p class=" font-j text-[22px] text-second">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
+            turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum
+            available, but the majority have suffered alteration in some form, by injecthumour, or randomised words
+            which don't look even slightly believable.</p>
+         <p class="mt-10 font-j text-[22px] text-second">
+            Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+            predefined chunks as necessary.</p>
+         <div class="w-full mt-9 rounded-[50px] bg-[#F4F0EC] text-center">
+            <p class="font-dm  rotate-180 text-primary text-[200px] h-55">“</p>
+            <i class="font-dm text-[25px] text-primary relative top-[-70px]">The details are not the details. <br> They
+               make the design.</i>
+         </div>
+         <h2 class="font-dm mt-7 text-[50px] text-fourth">Design sprints are great</h2>
+         <p class=" font-j mt-5 text-[22px] text-second">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
+            turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum
+            available, but the majority have suffered.</p>
+         <div class=" gap-8">
+            <p class=" font-j text-[22px] text-second"><span
+                  class="font-dm text-[22px] text-primary mr-3">1</span>Contrary to popular belief.There are many
+               variations of passages of Lorem <br> Ipsum available, but the majority have suffered.</p>
+            <p class=" font-j text-[22px] text-second"><span
+                  class="font-dm text-[22px] text-primary mr-3">2</span>Contrary to popular belief.There are many
+               variations of passages of Lorem <br>Ipsum available, but the majority have suffered.</p>
+            <p class=" font-j text-[22px] text-second"><span
+                  class="font-dm text-[22px] text-primary mr-3">3</span>Contrary to popular belief.There are many
+               variations of passages of Lorem <br>Ipsum available, but the majority have suffered.</p>
+         </div>
+         <img class="rounded-xl md:rounded-[46px] mt-11" src="./assets/png/blog-kitchen.png" alt="kitchen">
+         <p class=" font-j mt-9 text-[22px] text-second">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
+            turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum
+            available, but the majority have suffered.</p>
+         <div class="w-full mt-16 border-1 border-[#E5E5E5]"></div>
+         <div class="fcol items-center md:flex-row md:justify-between gap-y-10 mt-11">
+            <div class="flex items-center gap-5 font-j">
+               <h4 class="font-dm text-[22px]">Tags</h4>
+               <button
+                  class="flex items-center justify-center gap-2 w-[108px] h-[50px] rounded-xl bg-[#292F36] font-[Jost] tracking-wide text-third text-[18px] cursor-pointer hover:bg-[#485361] hover:scale-103 transition-all ease-out active:bg-[#292f36] active:scale-100">Kitchan</button>
+               <button
+                  class="flex items-center justify-center gap-2 w-[108px] h-[50px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer hover:bg-[#f3e8dc] hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100">Kitchan</button>
+            </div>
+            <div class="flex justify-around gap-13">
+               <img class="w-5 lg:w-auto cursor-pointer hover:scale-110 active:scale-100 transition-all ease-out"
+                  src="./assets/svg/facebook.svg" alt="">
+               <img class="w-6 lg:w-auto cursor-pointer hover:scale-110 active:scale-100 transition-all ease-out"
+                  src="./assets/svg/tw.svg" alt="">
+               <img class="w-6 lg:w-auto cursor-pointer hover:scale-110  active:scale-100 transition-all ease-out"
+                  src="./assets/svg/in.svg" alt="">
+               <img class="w-6 lg:w-auto cursor-pointer hover:scale-110 active:scale-100 transition-all ease-out"
+                  src="./assets/svg/ins.svg" alt="">
+            </div>
+         </div>
+         <div class="mt-[138px]">
+            <h3 class="font-dm text-[25px]">Leave a Reply</h3>
+            <form class="fcol gap-y-[50px] gap-x-8 md:flex-row lg:flex-col mt-12" action="#">
+               <div class="fcol gap-12">
+                  <div class="fc flex-wrap gap-11">
+                     <input
+                        class="w-[378px] h-11 text-[22px] border-b-2 border-[#4D5053] placeholder:relative placeholder:top-[-10px] outline-none"
+                        type="text" placeholder="Name">
+                     <input
+                        class="w-[378px] h-11 text-[22px] border-b-2 border-[#4D5053] placeholder:relative placeholder:top-[-10px] outline-none"
+                        type="email" placeholder="Email">
+                  </div>
+                  <div class="fc flex-wrap gap-11">
+                     <input
+                        class="w-[378px] h-11 text-[22px] border-b-2 border-[#4D5053] placeholder:relative placeholder:top-[-10px] outline-none"
+                        type="url" placeholder="Website">
+                     <input
+                        class="w-[378px] h-11 text-[22px] border-b-2 border-[#4D5053] placeholder:relative placeholder:top-[-10px] outline-none"
+                        type="number" placeholder="Phone">
+                  </div>
+               </div>
+               <textarea
+                  class="min-w-100 h-[174px] md:h-[312px] lg:h-[174px] border-b-2 border-[#4d5053] text-[22px] resize-none outline-none"
+                  name="" id="" placeholder="Hello I am Interested in.."></textarea>
+            </form>
+            <div class="mt-9">
+               <div class="flex items-center gap-[10px]">
+                  <input class="w-[17px] h-[17px] accent-primary shadow-primary" type="checkbox" name="" id="">
+                  <p class="font-j text-[18px] text-primary ">Save my name, email, and website in this browser for
+                     the
+                     next time I comment.</p>
+               </div>
+               <button
+                  class="flex items-center justify-center gap-2 w-[220px] h-[76px] mt-2 rounded-[18px] bg-[#292F36] font-[Jost] tracking-wide text-white text-[18px] cursor-pointer hover:bg-[#485361] hover:scale-103 transition-all ease-out active:bg-[#292f36] active:scale-100"
+                  value="submit">Send Now<img src="./assets/svg/strelka-orange.svg" alt=""></button>
+            </div>
+         </div>
+      </div>
+      <div class="px-4 sm:px-0 ">
+         <div class="fc h-[100px] w-[346px] bg-[#F4F0EC] rounded-[20px] mx-auto sm:mx-0">
+            <input class="placeholder:text-primary text-[22px] outline-none" type="text" placeholder="Search">
+            <button><img src="./assets/svg/lupa.svg" alt=""></button>
+         </div>
+         <div>
+            <div class="fcol gap-[34px] mt-[50px]">
+               <h3 class="font-dm text-[25px]">Latest News</h3>
+               <div class="">
+                  <p class="font-dm text-[20px]">We Focus On Comfort <br>And Gorgeous</p>
+                  <p class="text-end font-j">06/02/2020</p>
+                  <div class="w-full mt-1 border-t-1 border-primary"></div>
+               </div>
+            </div>
+            <div class="fcol gap-[34px] mt-[50px]">
+               <h3 class="font-dm text-[25px]">Latest News</h3>
+               <div class="">
+                  <p class="font-dm text-[20px]">We Focus On Comfort <br>And Gorgeous</p>
+                  <p class="text-end font-j">06/02/2020</p>
+                  <div class="w-full mt-1 border-t-1 border-primary"></div>
+               </div>
+            </div>
+            <div class="fcol gap-[34px] mt-[50px]">
+               <h3 class="font-dm text-[25px]">Latest News</h3>
+               <div class="">
+                  <p class="font-dm text-[20px]">We Focus On Comfort <br>And Gorgeous</p>
+                  <p class="text-end font-j">06/02/2020</p>
+                  <div class="w-full mt-1 border-t-1 border-primary"></div>
+               </div>
+            </div>
+         </div>
+         <div class="mt-[50px] px-8 py-7 bg-[#F4F0EC] rounded-[20px]">
+            <h3 class="font-dm text-[25px]">Categories</h3>
+            <p class="font-j mt-5 text-[22px] text-second">Decoration</p>
+            <div class="w-full mt-4 mb-4 border-t-1 border-primary"></div>
+            <p class="font-j text-[22px] text-second">Door Windows</p>
+            <div class="w-full mt-4 mb-4 border-t-1 border-primary"></div>
+            <p class="font-j text-[22px] text-second">Home Land</p>
+            <div class="w-full mt-4 mb-4 border-t-1 border-primary"></div>
+            <p class="font-j text-[22px] text-second">Roof Installation</p>
+         </div>
+         <div class="mt-[50px]">
+            <h3 class="font-dm text-[25px]">Tags</h3>
+            <div class="flex flex-wrap gap-[10px] mt-6">
+               <button
+                  class="flex items-center justify-center gap-2 px-[30px] py-[9px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer  hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100 focus:bg-[#292F36] focus:text-white">Kitchan</button>
+               <button
+                  class="flex items-center justify-center gap-2 px-[30px] py-[9px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer  hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100 focus:bg-[#292F36] focus:text-white">Bedroom</button>
+               <button
+                  class="flex items-center justify-center gap-2 px-[30px] py-[9px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer  hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100 focus:bg-[#292F36] focus:text-white">Building</button>
+               <button
+                  class="flex items-center justify-center gap-2 px-[30px] py-[9px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer  hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100 focus:bg-[#292F36] focus:text-white">Architecture</button>
+               <button
+                  class="flex items-center justify-center gap-2 px-[30px] py-[9px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer  hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100 focus:bg-[#292F36] focus:text-white">Kitchen
+                  Planning</button>
+               <button
+                  class="flex items-center justify-center gap-2 px-[30px] py-[9px] rounded-xl bg-[#f4f0ec] font-[Jost] tracking-wide text-fourth text-[18px] cursor-pointer  hover:scale-103 transition-all ease-out active:bg-[#f4f0ec] active:scale-100 focus:bg-[#292F36] focus:text-white">Bedroom</button>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer class="flex flex-wrap justify-around mx-auto gap-y-20 mt-30 md:mt-[136px] lg:w-250 xl:w-300">
+      <div class="w-[392px] font-[Jost] text-[#4d5053]">
+         <img src="./assets/svg/interno-logo.svg" alt="">
+         <p class="text-[22px] mt-[18px] mb-[32px]">It is a long established fact that a reader will be distracted
+            lookings.</p>
+         <div class="flex justify-around md:justify-start md:gap-13">
+            <img class="w-5 lg:w-auto cursor-pointer hover:scale-110 active:scale-100 transition-all ease-out"
+               src="./assets/svg/facebook.svg" alt="">
+            <img class="w-6 lg:w-auto cursor-pointer hover:scale-110 active:scale-100 transition-all ease-out"
+               src="./assets/svg/tw.svg" alt="">
+            <img class="w-6 lg:w-auto cursor-pointer hover:scale-110  active:scale-100 transition-all ease-out"
+               src="./assets/svg/in.svg" alt="">
+            <img class="w-6 lg:w-auto cursor-pointer hover:scale-110 active:scale-100 transition-all ease-out"
+               src="./assets/svg/ins.svg" alt="">
+         </div>
+      </div>
+      <div class="flex flex-col gap-y-5">
+         <p class="mt-2 font-[DM_Serif_Display] text-black text-[25px]">Pages</p>
+         <ul class="flex flex-col gap-y-5 text-[22px]">
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">About
+                  Us</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">Our
+                  Projects</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">Our
+                  Team</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">Contact
+                  Us</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Services</a>
+            </li>
+         </ul>
+      </div>
+      <div class="flex flex-col gap-y-5">
+         <p class="mt-2 font-[DM_Serif_Display] text-black text-[25px]">Services</p>
+         <ul class="flex flex-col gap-y-5 text-[22px]">
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Kitchan</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">Living
+                  Area</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Bathroom</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">Dinning
+                  Hall</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">Bedroom</a>
+            </li>
+         </ul>
+      </div>
+      <div class="flex flex-col gap-y-5 text-center md:text-start">
+         <p class="mt-2 font-[DM_Serif_Display] text-black text-[25px]">Contact</p>
+         <ul class="flex flex-col gap-y-5 text-[22px]">
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">55 East
+                  Birchwood Ave. <br> Brooklyn, New York 11201</a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800"
+                  href="#">contact@interno.com
+               </a>
+            </li>
+            <li class="cursor-pointer text-overline hover:underline "><a class="hover:text-purple-800" href="#">(123)
+                  456 - 7890</a>
+            </li>
+         </ul>
+      </div>
+   </footer>
+   <p class="font-[Jost] text-[22px] text-[#4d5053] text-center mt-[174px]">Copyright © Interno | Designed by Victorflow
+      Templates - Powered by Webflow</p>
+</body>
+
+</html>
